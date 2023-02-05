@@ -61,7 +61,7 @@ jobs:
           Host yandex_server
             HostName ${{ secrets.SERVER_IP }}
             User justaway
-            IdentifyFile ~/.ssh/id_rsa
+            IdentityFile ~/.ssh/id_rsa
             StrictHostKeyChecking no
           END
       - name: Get code from repo
