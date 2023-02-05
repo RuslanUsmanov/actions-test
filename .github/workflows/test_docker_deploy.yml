@@ -71,4 +71,4 @@ jobs:
         run: rsync -rav --delete docker-compose.yml yandex_server:~/
         
       - name: Run compose up
-        run: ssh yandex_server 'sudo docker-compose up'
+        run: ssh yandex_server 'sudo docker-compose up -d'
