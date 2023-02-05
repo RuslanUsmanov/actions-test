@@ -3,4 +3,4 @@ def sum_list(list: list[int]):
 
 
 if __name__ == "__main__":
-    print(sum_list([1, 2, 3, 4]))
+    print(f"sum={sum_list([1, 2, 3, 4])}")
